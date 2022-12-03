@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width:1px ;
+  border-bottom-color: rgb(12, 12, 12);
+  padding: 10px;
+  }
+
+  .containers:hover{
+  background-color: rgb(49, 14, 220);
+  cursor: pointer;
+  }
+
+  #list-item-check #list-item-options {
+  flex: 0 0 auto ;
+  }
+
+  #list-item-content{
+  flex: 1 1 auto ;
+  padding: 0px 10px;
+  }
+#btn-favorite{
+width: auto;
+min-width: auto;
+padding: 0px;
+color: blue;
+}
+#btn-favourite .material-icons-outlined{
+color: #e70d14;
+}
+
+#list-item-content .due-date{
+font-size: x-small;
+color: #aaaaaa;
+}
